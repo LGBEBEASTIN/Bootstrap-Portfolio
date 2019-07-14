@@ -6,3 +6,13 @@ footer .navbar {
     bottom: 0;
     width: 100%;
 }
+form h1 {
+    margin-bottom: 30px;
+}
+
+.container .row {
+    margin-bottom: 30px;
+}
+.container .row .card {
+    margin: 0 5px 10px 5px;
+}
