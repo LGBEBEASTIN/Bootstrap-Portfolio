@@ -1,11 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 header .navbar {
     margin-bottom: 20px;
 }
-footer .navbar {
-    position: fixed;
-    bottom: 0;
+
+footer {
+    margin-top: auto;
     width: 100%;
 }
+
 form h1 {
     margin-bottom: 30px;
 }
@@ -13,6 +24,7 @@ form h1 {
 .container .row {
     margin-bottom: 30px;
 }
+
 .container .row .myCard {
     margin: 0px 5px 10px 5px;
 }
