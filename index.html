@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>My Portfolio: Lawrence Gober</title>
 </head>
 
@@ -66,10 +71,21 @@
                     <div class="card" style="width: 100%;">
                         <img src="images/portfoliopic.jpeg" class="card-img-top" alt="Lawrence Gober">
                         <div class="card-body">
-                            <h5 class="card-title">Lawrence Gober</h5>
-                            <p class="card-text">I enjoy taking photos when I travel!</p>
+                            <h4 class="card-title">Lawrence Gober</h4>
+                            <h5 class="card-title"><a href="https://www.linkedin.com/in/lawrence-gober/">LinkedIn</a>
+                            </h5>
+                            <h5 class="card-title"><a href="https://github.com/LGBEBEASTIN">GitHub</a></h5>
+                            <h5 class="card-title"><a
+                                    href="https://drive.google.com/open?id=1-dRkZFa6D_wlp8SFN9WEzdGmNjFLjHpo">Resume</a>
+                            </h5>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Quote Of The Day:</h2>
+                    <h3 class="quoteDiv"></h3>
                 </div>
             </div>
         </div>
@@ -79,6 +95,8 @@
             <a class="navbar-brand text-center">©LawrenceGober 2019</a>
         </nav>
     </footer>
+
+    <script src="javascript/quoteAPI.js"></script>
 </body>
 
 </html>
