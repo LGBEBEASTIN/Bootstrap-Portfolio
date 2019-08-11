@@ -15,7 +15,7 @@ function userDay() {
     $("#day").append(n + ",");
     var index = wkDay.indexOf(n);
     var catArray = new Array();
-    catArray[0] = "";
+    catArray[0] = "life";
     catArray[1] = "management";
     catArray[2] = "inspire";
     catArray[3] = "art";
@@ -32,7 +32,7 @@ function userDay() {
         method: "GET"
     }).then(function (userQuote) {
         console.log(userQuote)
-        $(".quoteDiv").append(userQuote.contents.quotes[0].quote);
+        $().append(userQuote.contents.quotes[0].quote);
     });
 }
 
