@@ -7,20 +7,25 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Titillium Web', sans-serif;
+    background-color: lightslategray;
 }
 
-header .navbar {
-    margin-bottom: 20px;
+main {
+    color: white;
 }
 
 .quoteDiv{
     padding: 5px;
-    border: 2px solid #343a30;
+    border: 2px solid navy;
 }
 
 footer {
     margin-top: auto;
     width: 100%;
+}
+
+.contactinfo {
+    margin-top: 20px;
 }
 
 form h1 {
@@ -35,6 +40,21 @@ form h1 {
     margin: 0px 5px 10px 5px;
 }
 
+.aboutme {
+    margin-top: 20px;
+}
+
+.factsabout {
+    color: navy;
+}
+
+.card-body {
+    color: navy;
+}
+
+.lawrencecard {
+    color: navy;
+}
 .portfolioimage{
     max-height: 250px;
 }
@@ -45,9 +65,23 @@ form h1 {
 
 .portfoliocontainer{
     max-width: 750px;
+    padding: 10px;
+    border: 5px solid navy;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sociallinks {
+    border: 5px solid navy;
+    padding: 15px;
 }
 
 .phonepic{
     width: 100%;
     height: 100%;
+}
+
+.navbar {
+    background-color: navy;
+    color: white;
 }
